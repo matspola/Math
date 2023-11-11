@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math JS</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <form name="forma">
+        <b>Задание 1</b><br>
+        Сторона 1 <input type="text" size="8" maxlength="8" name="st1"><br>
+        Сторона 2 <input type="text" size="8" maxlength="8" name="st2"><br>
+        Сторона 3 <input type="text" size="8" maxlength="8" name="st3"><br><br>
+
+        <input type="button" value="Вычислить" onclick="areaOfTriangle(forma);">
+        <input type="reset" value="Отменить"><br>
+        Результат <input type="text" size="8" maxlength="8" name="res"> <br><br>
+
+        <form>
+           <b>Задание 2</b><br>
+            Max число <input type="text" size="8" maxlength="8" name="st1_2"><br>
+            Min число <input type="text" size="8" maxlength="8" name="st2_2"><br><br>
+
+            <input type="button" value="Вычислить число между max и min" onclick="zad2(forma);">
+            <input type="reset" value="Отменить"><br><br>
+            Результат <input type="text" size="8" maxlength="8" name="result"><p></p>
+
+            <form>
+                <b>Задание 3</b><br>
+                 x^2 <input type="text" size="8" maxlength="8" name="st1_3"><br>
+                 x <input type="text" size="8" maxlength="8" name="st2_3"><br>
+                 свободный член <input type="text" size="8" maxlength="8" name="st3_3"><br><br>
+     
+                 <input type="button" value="Вычислить корни уравнения" onclick="zad3(forma);">
+                 <input type="reset" value="Отменить"><br><br>
+                 x1= <input type="text" size="8" maxlength="8" name="result2">
+                 x2= <input type="text" size="8" maxlength="8" name="result3"><p></p><br><br><br><br>
+
+
+
+
+
+
+
+
+                 <form>
+                    <b>Задание 1.2</b><br>
+                    Сторона a <input type="text" size="8" maxlength="8" name="tra"><br>
+                    Сторона b<input type="text" size="8" maxlength="8" name="trb"><br><br>
+        
+                    <input type="button" value="Вычислить площадь прямоугольника" onclick="math1(forma);">
+                    <input type="reset" value="Отменить"><br><br>
+                    Площадь <input type="text" size="8" maxlength="8" name="plo"><p></p>
+
+                    <form>
+                        <b>Задание 2.2</b><br>
+                        Даны числа 7, -3, 10, 23, -100, 0, 55 <br>
+            
+                        <input type="button" value="Найти max и min" onclick="math2(forma);">
+                        <input type="reset" value="Отменить"><br><br>
+                        max <input type="text" size="8" maxlength="8" name="max"><p></p>
+                        min <input type="text" size="8" maxlength="8" name="min"><p></p>
+
+                    <div class="center">
+    <form class="la">
+        
+        <b>Задание 3.2</b><br>
+        Стоимость квартиры<br>
+        <input type="text" size="50" name="stoimost" placeholder="2000000" class="text"><br>
+        Период <br>
+        <input type="text" size="50" name="priod" placeholder="5" class="text"><br>
+        Ставка <br>
+        <input type="text" size="50" name="stavka" placeholder="10" class="text"><br><br>
+
+        <input type="button" value="Рассчитать" onclick="math3(forma);" class="buttong">
+        <input type="reset" value="Отменить" class="buttong"><br><br>
+        Ежемесячный платёж<br>
+         <input type="text" size="50" maxlength="8" name="plat"><p></p>
+        
+    </form>
+</div>
+
+                    </form>
+                </form>
+            </form>
+        </form>
+    </form>
+
+
+
+
+</body>
+</html>
